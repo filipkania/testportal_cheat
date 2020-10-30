@@ -1,0 +1,13 @@
+{
+  "name": "testportal_cheat",
+  "description": "",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://*.testportal.pl/*"],
+      "js": ["cheat.js"],
+      "all_frames": true
+    }
+  ]
+}

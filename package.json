@@ -1,0 +1,23 @@
+{
+	"name": "testportal_cheat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/cheat.js",
+	"scripts": {
+		"build": "webpack --config=webpack.conf.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.1",
+		"@babel/preset-env": "^7.12.1",
+		"@babel/preset-typescript": "^7.12.1",
+		"@types/webpack-env": "^1.15.3",
+		"babel-loader": "^8.1.0",
+		"copy-webpack-plugin": "^6.2.1",
+		"ts-loader": "^8.0.5",
+		"typescript": "^4.0.3",
+		"webpack": "^4.44.2",
+		"webpack-cli": "^3.2.3"
+	}
+}
