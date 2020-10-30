@@ -12,6 +12,7 @@
 		"@babel/core": "^7.12.1",
 		"@babel/preset-env": "^7.12.1",
 		"@babel/preset-typescript": "^7.12.1",
+		"@types/chrome": "^0.0.126",
 		"@types/webpack-env": "^1.15.3",
 		"babel-loader": "^8.1.0",
 		"copy-webpack-plugin": "^6.2.1",
